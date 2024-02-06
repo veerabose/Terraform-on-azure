@@ -36,5 +36,5 @@ module "securestorage" {
   version              = "1.0.0"
   location             = azurerm_resource_group.rg.location
   resource_group_name  = azurerm_resource_group.rg.name
-  storage_account_name = "veerastrg6789
+  storage_account_name = "veerastrg6789"
 }
