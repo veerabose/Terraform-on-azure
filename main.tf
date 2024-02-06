@@ -31,7 +31,7 @@ module "securestorage" {
   storage_account_name = "veerastrg3728"
 }
 
-module "securestorage" {
+module "securestorage1" {
   source               = "app.terraform.io/Ck-Terraform/securestorage/azurerm"
   version              = "1.0.0"
   location             = azurerm_resource_group.rg.location
